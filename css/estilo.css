@@ -1,0 +1,507 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+    font-size:16px;
+}
+#search{
+	margin-top: 50px;
+	padding:30px;
+}
+#search button{
+	width:100%;
+	padding:10px;
+}
+
+#pesquisar1{
+	width:100px;
+	visibility:hidden;
+}
+#area-atuacao{
+	position:relative;
+	visibility:hidden;
+	margin-top: 20px;
+	padding:30px;
+}
+#area-atuacao ul{
+	margin-left:2.5%;
+	width:95%;
+}
+#area-atuacao ul li{
+	margin:0;
+	text-align:center;
+}
+#area-atuacao ul li a{
+	padding:10px;
+	text-align:center;
+}
+#area-atuacao button{
+	padding:10px;
+	width:100%;
+}
+#area-atuacao div{
+	margin-top:30px;
+}
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+.hr-set {
+    border-top:2px solid #000;
+    max-width:250px;
+}
+.hr-set01{
+    border-top:2px solid #000;
+    max-width:1000px;
+}
+h3 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+h4 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+.icon-custom-1 {
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+.icon-custom-2 {
+    background-color: #49CD7D;
+	padding: 25px;
+	border-radius:50%;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.icon-custom-1:hover {
+    background-color: #000;
+}
+.icon-custom-2:hover {
+    background-color: #000;
+}
+.color-1 {
+    color: #49CD7D;
+}
+.color-2 {
+    color: #fff;
+}
+.p-top-row {
+    padding-top: 40px;
+}
+.p-top-rr{
+    padding-top: 85px;
+}    
+.gephi {
+    padding-top: 95px;
+}
+#jq{
+    margin-top: 0px;
+}
+.javas{
+    padding-top: 45px;
+}
+.socilab{
+    margin-top: 0px;
+}
+.jquery{
+    width: 350px;
+    height: 315px;
+}
+.linkedin{
+    padding-top: 40px;
+}
+#new-about p{
+    text-align: justify;
+}
+#p-new{
+    margin-top: -10px;
+}
+.img-rounded {
+    border-radius: 6px;
+    margin-top: 10px;
+}
+#soci-im{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#img-03{
+    margin-top: 135px;
+}
+ /* =============================================================
+   MENU STYLES 
+ ============================================================ */
+
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-brand:hover {
+	color: #FFF;
+	font-size: 35px;
+	letter-spacing: 5px;
+	font-weight: 900;
+	background-color: rgba(16, 16, 16, 0);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: rgba(16, 16, 16, 0);
+}
+.navbar-inverse {
+	border-color: rgba(16, 16, 16, 0);
+}
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 0px;
+}
+.set-links {
+    padding: 15px 20px 10px 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:rgba(20, 152, 152, 1); 
+}
+
+.nav-tools {
+    padding-top: 0px;
+    height: 100px;
+}
+.active-menu-item {
+    color:rgba(20, 152, 152, 1)!important;
+}
+.efeito-ativo{
+    color:rgba(20, 152, 152, 1)
+}
+.navbar-brand small {
+    font-size:26px;
+    font-weight:normal;
+    letter-spacing:1px;
+}
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+#footer-sec {
+    background-color:#121212;
+    padding-bottom:30px;
+    padding-top:30px;
+    color: #DFD1D1;
+    margin-top: 120px;
+}
+#footer-sec p{
+    /* padding-right: 50px; */
+    text-align: justify;
+}
+.social-links a,.social-links a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+.social-links a i {
+    background-color:#000;
+    padding:15px 20px;
+    margin:5px;
+}
+.copy-txt {
+    background-color:#202020;
+    padding:15px;
+    color:#7C7C7C;
+}
+
+.set-foot {
+    text-align:right;
+    padding-right:50px;
+}
+
+#btn-topo{
+    background-color: #000;
+    padding: 15px 20px;
+    margin: 5px;
+    border: none;
+    padding-top: 20px;
+    margin-top: 30px;
+    /* border: 2px solid #fff; */
+    width: 320px;
+    border-radius: 10px;
+    outline: none;
+}
+#btn-topo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+/* =============================================================
+   PAGE HEADLINE STYLES
+ ============================================================ */
+.headline-sec {
+    background: url(../img/header.jpg) no-repeat center center;
+	padding: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size:cover;
+	color:#fff;
+    margin-top: -20px;
+
+}
+.overlay {
+    background-color: rgba(20, 152, 152, 0.9);
+    min-height: 40px;
+}
+.headline-sec h3 {
+    padding-top: 100px;
+    font-weight: 900;
+    padding-left: 220px;
+}
+.section-about{
+	height:100px;
+	border:1px solid black;
+    background-color: #222;
+}
+.section-about h3 {	
+	border:1px solid black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+    color: black;
+}
+.section-about h3 i{
+    padding-left: 10px;
+}
+.section-about a{
+	color: black;
+    text-decoration: none;
+}
+.section-about a:hover{
+    color: #EFEFEF;
+}
+#clients-sec.efeito{
+	margin-top: 100px;
+    transition-duration: 1s; 
+}
+#clients-sec {
+    transition: 0.8s; 
+}
+
+
+#assets-img{
+    margin-left: 75px;
+    margin-top: -20px;
+}
+#net-img {
+    margin-top: 10px;
+    height: 300px;
+    /* width: 376px; */
+}
+/* =============================================================
+   HOME SECTION STYLES -IN HOME / INDEX.HTML 
+ ============================================================ */
+#home-sec {
+    background: url(../img/header.jpg) no-repeat center center;
+	padding: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size:cover;
+	color:#fff;
+	margin-top: -60px;
+	
+}
+
+#home-sec .overlay {
+    background-color:rgba(20, 152, 152, 0.9);
+    min-height:350px;
+}
+#index-overlay{
+    margin-top: 60px;
+}
+#home-sec h1 {
+    padding-top:100px;
+    font-size: 48px;
+	transition-duration: 1s;
+}
+#home-sec h2 {
+    transition-duration: 1s;
+    color: #fff;
+}
+#home-sec .ativo{
+	font-size: 72px;
+}
+#home-sec p {
+    padding:10px;
+}
+/* =============================================================
+   SEARCH DOMAIN SECTION STYLES  -IN HOME / INDEX.HTML 
+ ============================================================ */
+#search-domain {
+    padding-bottom:50px;
+    padding-top:50px;
+}
+.input-cls {
+    height: 50px;
+    width: 500px;
+    margin-top: 2px;
+    font-size: 22px;
+    border-radius: 0px;
+    background-color: #31b0d5;
+    padding-bottom: 35px;
+}
+.btn-set {
+    font-size:22px;
+/*  border: 5px double #fff; */
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+}
+/* Raul */
+/*
+#drop button{
+	width:100%;
+}
+
+#drop li{
+    width: 100%;
+    margin-top: 2px;
+    
+    text-align: center;
+    background-color: #31b0d5;
+}
+
+#drop ul{
+    margin-left: 318px;
+    transition-duration: 5s;    
+}
+#drop-menu li a {
+    display: block;
+    padding: 9px 20px;
+    clear: bdoth;
+    fonst-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+} */
+#drop-menu li a:hover{
+    color: black;
+}
+
+/* =============================================================
+   CLIENT TESTIMONIAL SECTION STYLES  -IN HOME / INDEX.HTML 
+ ============================================================ */
+
+#testimonial-sec h1{
+    color: #000;
+    font-size: 55px;
+    font-weight: 900;
+    padding: 20px;
+    transition-duration: 1s;
+}
+#testimonial-sec .effect{
+    font-size: 72px;
+    padding: 40px;
+}
+#indicators i {
+    font-size: 100px;
+    /* margin-top: 62px; */
+    padding-top: 80px;
+    color: white;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+.owl-item{
+    /*width: 1170px*/;
+}
+#clients-sec{
+    margin-top: 250px;
+}
+#new-about{
+    margin-top: 80px;
+}
+#ferramentas-new {
+    background-color: #222;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+#ferramentas-new h3 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+    color: #fff;
+}
+#ferramentas-new h3 i{
+    padding-left: 10px;
+}
+#ferramentas-new a{
+    color: white;
+    text-decoration: none;
+}
+#ferramentas-new a:hover{
+    color: #EFEFEF;
+}
+/* =============================================================
+   FEATURES SECTION STYLES  -IN HOME / INDEX.HTML 
+ ============================================================ */
+#features-sec {
+    background-color:#EFEFEF;
+}
+#search-domain a input{
+
+}
+/* ================================================ 
+
+    LIST OF TOOLS - IN TOOLS.HTML
+
+ ============================================================ */
+#new-demand{
+    background-image: url("../img/assets.png");
+}
+#new-demand li.asset-01{
+    background-position: 0px;
+}
+.list-tools {
+    margin-left: -75px;
+    margin-top: 20px;
+}
+.list-tools li {
+    display: inline-block;
+    font-size: 25px;
+    /* letter-spacing: 5px; */
+    /* font-weight: 900; */
+    padding-left: 95px;
+    /* margin-left: -10px; */
+}
+#ul-listtools {
+    margin-left: -30px;
+}
+.list-tools li a {
+    color: #fff;
+}
+.list-tools li a:hover{
+    color: #000;
+}
+.hr-tools {
+    border-top: 2px solid #fff;
+    /* background-color: white; */
+    max-width: 1015px;
+}
+#tools {
+    margin-top: 0;
+}
+#tools p{
+    text-align: justify;
+}
+#top-menu{
+    color: #fff;
+}
